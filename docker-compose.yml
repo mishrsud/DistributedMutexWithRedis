@@ -1,0 +1,16 @@
+version: "2"
+
+services:
+  redis:
+    image: "128288646639.dkr.ecr.ap-southeast-2.amazonaws.com/ofx/redis"
+    ports:
+      - "6379:6379"
+    container_name: redis
+    restart: unless-stopped
+    networks:
+      bsl:
+        aliases:
+          - redis
+ 
+networks:
+  bsl:

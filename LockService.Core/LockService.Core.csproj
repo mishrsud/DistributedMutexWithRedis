@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ServiceStack.Common" Version="5.0.2" />
+    <PackageReference Include="ServiceStack.Interfaces" Version="5.0.2" />
+    <PackageReference Include="ServiceStack.Redis" Version="5.0.2" />
+    <PackageReference Include="ServiceStack.Text" Version="5.0.2" />
+  </ItemGroup>
+
+</Project>
